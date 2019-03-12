@@ -15,7 +15,7 @@ class UserManagementController extends Controller
      //  $this->middleware('admin-auth')->only('admin');
       // $this->middleware('team-member')->except('admin');
     }
-    //显示所有用户123444
+    //显示所有用户123
     public function index()
     {
 
