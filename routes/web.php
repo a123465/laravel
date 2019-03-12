@@ -20,7 +20,7 @@ Route::get('about',function(){
 Route::get('/ww', function () {
     return view('ww'); 
 });
-Route::get('/admin/config/', 'Admin\RBAC\UserManagementController@index'); //查看所有用户888
+Route::get('/admin/config/', 'Admin\RBAC\UserManagementController@index'); //查看所有用户1
 Route::get('/admin/home/', 'Admin\RBAC\UserManagementController@home'); 
 Route::group(['middleware'=>'auth'],function(){
     Route::get('dashboard',function(){
